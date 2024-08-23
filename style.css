@@ -1,0 +1,131 @@
+.work-sans-temp {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: -1px;
+    font-size: medium;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .leftbar {
+    height: 100%;
+    width: 5.6%;
+    background-color: #1e1f20;
+    transition: width 0.7s ease;
+  }
+  .container {
+    height: 100vh;
+    width: 94.4%;
+    background: #131314;
+    transition: width 0.7s ease, padding-left 0.7s ease;
+    padding-left: 200px;
+  }
+  .hamburger {
+    height: 17%;
+    padding-top: 19px;
+    padding-left: 10px;
+  }
+  .tokeep {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tokeep:hover {
+    background: #2f3030;
+  }
+  .bunimg {
+    height: 23px;
+    width: 23px;
+    filter: invert(100%);
+  }
+  .newchat {
+    height: 10%;
+    padding-top: 7px;
+    padding-left: 10px;
+    justify-content: left;
+  }
+  .newchatfont {
+    display: none;
+    color: white;
+  }
+  .addimg {
+    height: 16x;
+    width: 16px;
+    filter: invert(100%);
+  }
+  .tokeep2 {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tokeep2:hover {
+    background: #2f3030;
+  }
+  .history {
+    height: 73%;
+    background-color: red;
+    padding-left: 20px;
+    display: none;
+  }
+  
+  .heading {
+    height: 50vh;
+    font-size: 58px;
+    font-weight: 400;
+    padding-top: 100px;
+    letter-spacing: -6px;
+  }
+  .topheading{
+      background: #4E82EE;
+    background: linear-gradient(to right, #4E82EE 0%, #D77F85 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .bottomhead{
+      color: #444746;
+  }
+  
+  .prompt {
+    margin-top: 4px;
+    height: 12vh;
+    width: 65vw;
+    background: #1E1F20;
+    border-radius: 40px;
+    position: fixed; 
+    bottom: 16px; 
+    left: 53.7%; 
+    transform: translateX(-50%); 
+    z-index: 1000;
+    
+  }
+  
+  .input{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 40px ;
+    padding-left: 30px;
+    font-size: larger;
+    color: #E3E3E3;
+    font-weight: -100;
+  }
